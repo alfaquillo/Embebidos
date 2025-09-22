@@ -1,0 +1,2 @@
+VBoxManage clonemedium disk core-image-minimal.rootfs.wic.vmdk linux_minimal.vdi --format VDI
+
