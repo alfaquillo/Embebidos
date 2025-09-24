@@ -10,7 +10,7 @@ import numpy as np
 def main():
     # Función principal del programa
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
     # Abre la cámara por defecto (índice 0)
 
     if not cap.isOpened():
